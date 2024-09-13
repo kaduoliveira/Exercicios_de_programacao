@@ -1,4 +1,6 @@
-class Veiculo:
+from abc import ABC, abstractmethod
+
+class Veiculo(ABC):
     def __init__(self, marca, modelo):
         self.marca = marca
         self.modelo = modelo
@@ -8,6 +10,6 @@ class Veiculo:
         status = 'ligado' if self._ligado else 'desligado'
         return f'{self.marca} {self.modelo} | Ligado: {status}'
     
-#veiculo1 = Veiculo('Ford', 'Ka')
-
-#print(veiculo1)
+    @abstractmethod
+    def ligar(self):
+        pass

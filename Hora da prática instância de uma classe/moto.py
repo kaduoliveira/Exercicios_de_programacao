@@ -8,7 +8,6 @@ class Moto(Veiculo):
     def __str__(self):
         status = 'ligado' if self._ligado else 'desligado'
         return f'{self.marca} {self.modelo} | Tipo:  {self.tipo} | Ligado: {status}'
-    
-#moto1 = Moto('Honda', 'CG125', 'urbana')
 
-#print(moto1)
+    def ligar(self):
+        pass

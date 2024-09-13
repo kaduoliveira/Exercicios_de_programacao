@@ -8,3 +8,11 @@ xImplemente o Método Especial str na Classe Filha (Moto): Adicione um método e
 xCrie um Arquivo Main (main.py): Crie um arquivo chamado main.py no mesmo diretório que suas classes.
 xImporte e Instancie Objetos: No arquivo main.py, importe as classes Carro e Moto. Em seguida, crie três instâncias de Carro e Moto com diferentes marcas, modelos, quantidade de portas e tipos.
 xExiba as Informações: Para cada instância, imprima no console as informações utilizando o método str.
+
+Exercícios
+xCrie uma classe chamada Veiculo com um método abstrato chamado ligar.
+xNo mesmo arquivo, crie um construtor para a classe Veiculo que aceita os parâmetros marca e modelo.
+xCrie uma nova classe chamada Carro que herda da classe Veiculo.
+xNo construtor da classe Carro, utilize o método super() para chamar o construtor da classe pai e atribua o atributo específico cor à classe filha.
+xEm um arquivo chamado main.py, importe a classe Carro.
+xNo arquivo main.py, instancie três objetos da classe Carro com diferentes características, como marca, modelo e cor.
